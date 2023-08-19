@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+
+<head>
+  <meta charset="utf-8">
+  <title>AngularPortfolio</title>
+  <base href="newangularport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/11b2a6dc8a.js" crossorigin="anonymous"></script>
+<style>@import"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap";*{padding:0%;margin:0%;box-sizing:border-box;font-family:Poppins,sans-serif}html{scroll-behavior:smooth}body{background:#080808;color:#fff}</style><link rel="stylesheet" href="styles.77c20e98738498a8.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.77c20e98738498a8.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+<script src="runtime.474d8246d7f29a71.js" type="module"></script><script src="polyfills.cf0d521b02603df7.js" type="module"></script><script src="main.e9a6ab277cca9a4f.js" type="module"></script></body>
+
+</html>
